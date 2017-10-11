@@ -203,3 +203,5 @@ function! NumberToggle()
 endfunc
 
 nnoremap <C-d> :call NumberToggle()<cr>
+
+map <silent> <c-n> :NERDTreeFocus<CR>
